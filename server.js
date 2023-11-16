@@ -33,6 +33,14 @@ app.get('/register', (req, res) => {
     res.sendFile(path.join(intialPath, "register.html"));
 })
 
+app.get('/spanishLessons', (req, res) => {
+    res.sendFile(path.join(intialPath, "spanishLessons.html"));
+})
+
+app.get('/quizSpanish', (req, res) => {
+    res.sendFile(path.join(intialPath, "quizSpanish.html"));
+})
+
 app.post('/register-user', (req, res) => {
     const { name, email, password } = req.body;
 

@@ -1,0 +1,63 @@
+p.question {
+    font-family: "Arial Black", Gadget, sans-serif;
+	  font-size:18px;
+    color: black;
+}
+
+h2.quizHeader {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight:normal;
+  font-size:25px;
+  color: blue;
+  line-height: 25px;
+  margin: 20px 0 20px 0;
+  padding: 2px ;
+}
+
+h2.quizScore{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size:30px;
+}
+
+div.quizAnswers{
+  font-family: Arial, sans-serif;
+  font-size:15px;
+  padding: 5px  5px ;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+}
+
+input.answer[type="radio"] {
+  margin-bottom: 10px;
+}
+
+input.quizSubmit[type="submit"] {
+  color: white;
+  background-color: red;
+  text-transform:uppercase;
+  height:50px;
+  width:100px;
+  border: 2px solid;
+  border-radius:5px;
+  border-color: black;
+  
+ }
+
+input.quizSubmit[type="submit"]:hover {
+  color: red;
+  background: grey;
+}
+
+table {
+  background-color: pink;
+	border:2px solid;
+  border-radius:10px;
+  padding:8px;
+  padding-left:24px;
+}
+
