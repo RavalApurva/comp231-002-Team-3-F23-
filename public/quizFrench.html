@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Quiz</title>
+    <script src="js/quizFrench.js"></script>
+</head>
+<body>
+    <body>
+        <h2 class="quizHeader">French Quiz Time</h2>
+        
+          <table style="width:1000px">
+          <tr>
+            <td>
+                <div>
+                    <p class="question">Q1. What is the French equivalent of the English word "Adiós"?</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q1" value="1">
+                  <label id="correctString1">Au revoir</label>
+                  <br>
+                  <input class="answer" type="radio" name="q1" value="0">
+                  <label>Thank you</label>
+                  <br>
+                  <input class="answer" type="radio" name="q1" value="0">
+                  <label>Goodbye</label>
+                  <br>
+                  <input class="answer" type="radio" name="q1" value="0">
+                  <label>Hello</label>
+                  </ul>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <p class="question">Q2. How do you say "I don't understand" in French?</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>No entiendo</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="1">
+                  <label id="correctString2">Je ne comprends pas</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>Disculpe</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>Por favor</label>
+                  </ul>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <div>
+                    <p class="question">Q3. Translate the sentence "They are eating lunch" into French".
+                          </p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>Estoy Ils déjeunent.</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="1">
+                  <label id="correctString3">Ils déjeunent.</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>Vamos al parque.</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>j'aime dancer blair.</label>
+                  </ul>
+              </div>
+            </td>
+                <td>
+                <div>
+                    <p class="question">Q4. What is the French translation of "He needs to go to the doctor"?</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q4" value="0">
+                  <label>Il doit le médecin nuestra tarea.
+                </label>
+                  <br>
+                  <input class="answer" type="radio" name="q4" value="1">
+                  <label id="correctString4">Il doit aller chez le médecin</label>
+                  <br>
+                  <input class="answer" type="radio" name="q4" value="0">
+                  <label>Eres  aller chez le médecin.</label>
+                  <br>
+                  <input class="answer" type="radio" name="q4" value="0">
+                  <label>Quieres aprender español.</label>
+                  </ul>
+                </div>
+            </td>
+          </tr>
+               <td>
+                <div>
+                    <p class="question">Q5. In the sentence "J'aime danser," which part is conjugated in the first person singular?</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q5" value="0">
+                  <label>"bailar"</label>
+                  <br>
+                  <input class="answer" type="radio" name="q5" value="0">
+                  <label>"gustar"
+                </label>
+                  <br>
+                  <input class="answer" type="radio" name="q5" value="0">
+                <label>"yo"
+                </label>
+                  <br>
+                <input class="answer" type="radio" name="q5" value="1">
+      <label id="correctString5"> "J'aime"</label>
+                  </ul>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <p class="question">Q6. What is the grammar explanation for the sentence "Voulez-vous apprendre l'espagnol"?</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q6" value="0">
+                  <label>The verb "querer" is conjugated in the third person singular.
+                </label>
+                  <br>
+                  <input class="answer" type="radio" name="q6" value="1">
+                  <label id="correctString6"> The verb "aprender" is conjugated in the second person singular.
+                </label>
+                  <br>
+                  <input class="answer" type="radio" name="q6" value="0">
+                  <label> "español" is an adverb in this sentence.
+                </label>
+                  <br>
+                  <input class="answer" type="radio" name="q6" value="0">
+                  <label>The verb "aprender" is followed by the preposition "a."
+                </label>
+                  </ul>
+                </div>
+            </td>
+          </tr>
+          </table>
+      <br/>
+        <div class="submitter">
+                <input class="quizSubmit" id="submitButton" onClick="submitFrench`Quiz()"
+                type="submit" value="Submit" />
+          </div>
+        
+          <div class="quizAnswers" id="correctAnswer1"></div>
+            <div class="quizAnswers" id="correctAnswer2"></div>
+          <div class="quizAnswers" id="correctAnswer3"></div>
+          <div class="quizAnswers" id="correctAnswer4"></div>
+          <div class="quizAnswers" id="correctAnswer5"></div>
+          <div class="quizAnswers" id="correctAnswer6"></div>
+      
+          <div>
+              <h2 class="quizScore" id="userScore"></h2>
+          </div>
+          </div>
+      
+      </body>
+</body>
+</html>

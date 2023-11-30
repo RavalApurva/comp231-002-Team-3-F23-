@@ -41,6 +41,10 @@ app.get('/quizSpanish', (req, res) => {
     res.sendFile(path.join(intialPath, "quizSpanish.html"));
 })
 
+app.get('/quizFrench', (req, res) => {
+    res.sendFile(path.join(intialPath, "quizFrench.html"));
+})
+
 app.post('/register-user', (req, res) => {
     const { name, email, password } = req.body;
 
